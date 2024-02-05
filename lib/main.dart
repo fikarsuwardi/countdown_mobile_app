@@ -29,6 +29,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       // theme: theme,
+      theme: ThemeData(
+        scaffoldBackgroundColor: const Color(0xFF332F43),
+      ),
       home: CountdownList(),
     );
   }
